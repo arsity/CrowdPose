@@ -19,5 +19,8 @@ setup(name='crowdposetools',
       packages=['crowdposetools'],
       package_dir={'crowdposetools': 'crowdposetools'},
       version='2.0',
-      ext_modules=cythonize(ext_modules)
+      ext_modules=cythonize(ext_modules),
+      install_requires=[
+          'Cython',
+      ],
       )
