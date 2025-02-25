@@ -3,11 +3,6 @@
 pip install git+https://github.com/arsity/CrowdPose.git#subdirectory=crowdpose-api/PythonAPI
 ```
 
-**Using `uv`**
-```bash
-uv add git+https://github.com/arsity/CrowdPose.git#subdirectory=crowdpose-api/PythonAPI
-```
-
 ---
 ## CrowdPose: Efficient Crowded Scenes Pose Estimation and A New Benchmark
 
