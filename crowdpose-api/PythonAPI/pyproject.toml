@@ -1,13 +1,12 @@
 [build-system]
-requires = ["setuptools >= 60", "wheel", "Cython >= 0.29", "numpy>=2.0"]
+requires = ["setuptools>=61.0", "cython", "numpy"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "crowdposetools"
-version = "2.0.1"
-description = "crowdposetools with bug fix"
-requires-python = ">=3.7"
+version = "2.0"
 dependencies = ["numpy"]
 
 [tool.setuptools]
-packages = { find = { where = ["crowdposetools"] } }
+packages = ["crowdposetools"]
+package-dir = {crowdposetools = "crowdposetools"}
