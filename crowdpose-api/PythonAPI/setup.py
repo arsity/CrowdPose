@@ -1,7 +1,6 @@
-from setuptools import setup
-from Cython.Build import cythonize
-from setuptools.extension import Extension
 import numpy as np
+from setuptools import setup, Extension
+from Cython.Build import cythonize
 
 ext_modules = [
     Extension(
