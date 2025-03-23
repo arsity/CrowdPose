@@ -11,11 +11,7 @@ requires-python = ">=3.7"
 [tool.setuptools]
 packages = { find = { where = ["crowdposetools"] } }
 
-[tool.setuptools.ext_modules]
-crowdposetools._mask = [
-    {
-        sources = ["../common/maskApi.c", "crowdposetools/_mask.pyx"],
-        include_dirs = ["numpy", "../common"],  # numpy 的 include 路径需要已安装 numpy
-        extra_compile_args = ["-Wno-cpp", "-Wno-unused-function", "-std=c99"],
-    }
-]
+[tool.setuptools.ext_modules."crowdposetools._mask"]
+sources = ["../common/maskApi.c", "crowdposetools/_mask.pyx"]
+include_dirs = ["numpy", "../common"]
+extra_compile_args = ["-Wno-cpp", "-Wno-unused-function", "-std=c99"]
