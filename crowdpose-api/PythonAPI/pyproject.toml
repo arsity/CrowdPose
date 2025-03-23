@@ -9,10 +9,7 @@ description = "crowdposetools with bug fix"
 requires-python = ">=3.7"
 
 [tool.setuptools]
-packages = ["crowdposetools"]
-
-[tool.setuptools.packages.find]
-where = ["crowdposetools"]
+packages = { find = { where = ["crowdposetools"] } }
 
 [tool.setuptools.ext_modules]
 crowdposetools._mask = [
