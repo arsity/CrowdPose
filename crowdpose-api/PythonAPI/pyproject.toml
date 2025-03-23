@@ -4,7 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "crowdposetools"
-version = "2.0"
+version = "2.0.1"
+description = "Modernized crowdposetools with bug fix."
 dependencies = ["numpy"]
 
 [tool.setuptools]
