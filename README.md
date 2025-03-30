@@ -1,3 +1,8 @@
+**Using `pixi`**
+```bash
+pixi add --pypi -g git+https://github.com/arsity/CrowdPose.git -s crowdpose-api/PythonAPI crowdposetools
+```
+
 **Using `pip`**
 ```bash
 pip install git+https://github.com/arsity/CrowdPose.git#subdirectory=crowdpose-api/PythonAPI
