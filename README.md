@@ -8,6 +8,11 @@ pixi add --pypi -g git+https://github.com/arsity/CrowdPose.git -s crowdpose-api/
 pip install git+https://github.com/arsity/CrowdPose.git#subdirectory=crowdpose-api/PythonAPI
 ```
 
+If missing headers, run
+```bash
+sudo apt-get install python3-dev -y
+```
+
 ---
 ## CrowdPose: Efficient Crowded Scenes Pose Estimation and A New Benchmark
 
