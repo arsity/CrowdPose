@@ -14,6 +14,6 @@ ext_modules = [
 setup(
     name="crowdposetools",
     version="2.0.1",
-    description="Modernized crowdposetools with bugfix."
+    description="Modernized crowdposetools with bugfix.",
     ext_modules=cythonize(ext_modules),
 )
